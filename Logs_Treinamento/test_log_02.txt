@@ -1,0 +1,2 @@
+Resultados do Teste
+Loss - 0.09185140579938889, MAPE - 1.7562487125396729

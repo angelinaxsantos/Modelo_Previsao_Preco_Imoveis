@@ -1,0 +1,2 @@
+Resultados da Validação
+Loss - 0.10666859894990921, MAPE - 1.8966046571731567

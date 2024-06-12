@@ -17,7 +17,7 @@ df.dropna(subset=['lotSize', 'livingArea', 'bathrooms', 'bedrooms', 'yearBuilt']
 
 #A variavel dateSold não é aceite pelo modelo, por isso é necessário transformar a variavel para um formato aceite
 
-#Transformação da coluna dateSold para datetime "ms" para o modelo aceitar os dados
+#Transformação da coluna dateSold para timestamp em segungos desde 1 de janeiro 1970 (Unix timestamp)
 df['dateSold'] = pd.to_datetime(df['dateSold'], format='%m/%d/%Y')
 df['dateSold'] = df['dateSold'].astype('int64') // 10**9
 
